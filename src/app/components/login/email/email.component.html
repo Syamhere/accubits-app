@@ -1,0 +1,5 @@
+<div class="form-group" [formGroup]="email">
+  <input class="form-control" required email formControlName="email" placeholder="Username"  type="email" />
+  <small *ngIf="submitted && email.controls.email.errors && email.controls.email.errors.required" class="form-text">Email is required</small>
+  <small *ngIf="submitted && email.controls.email.errors && email.controls.email.errors.email" class="form-text">Email must be a valid email address</small>
+</div>

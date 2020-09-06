@@ -1,0 +1,13 @@
+.login-btn button{
+    width: 130px;
+    height: 44px;
+    background: #1c5ad3;
+    color: white;
+    border: 0;
+    cursor: pointer;            
+    font-size: 15px;
+    transition: all ease-in-out 0.3s;
+    &:hover{
+        box-shadow: 0px 0px 27px 0px rgba(23, 78, 204, 0.59);
+    }          
+}
